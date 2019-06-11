@@ -6,9 +6,8 @@
 
 > These services will need to be setup (either locally or remotely) to run the proxy
 
-  - https://github.com/rpt12-knightrider/jb-service
-  - https://github.com/rpt12-knightrider/mj-service
-  - https://github.com/rpt12-knightrider/sm-service
+  - https://github.com/rpt12-sdc-highgarden/aarushi-service
+  - https://github.com/rpt12-sdc-highgarden/anait-service
 
 ## Usage
 
