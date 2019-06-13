@@ -1,0 +1,15 @@
+config:
+  target: 'http://localhost:3000'
+  http:
+    - pool: 100
+  phases:
+    - duration: 60
+      arrivalRate: 1
+scenarios:
+  - name: 'Look up a book (GET)'
+    flow:
+      - loop:
+        - get:
+            url: "/{{ $randomNumber(1, 10000000) }}/"
+        count: 1100
+

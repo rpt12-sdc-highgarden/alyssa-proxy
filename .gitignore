@@ -24,3 +24,5 @@ coverage
 build/
 dist/
 
+# License Key for New Relic
+newrelic_license_key.js
